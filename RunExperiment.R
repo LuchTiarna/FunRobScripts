@@ -1,7 +1,7 @@
 #Runs all scripts of an experiments
 
-source('~/Documents/Bakalarka/FunRobScripts/initialization.R')
-source('~/Documents/Bakalarka/FunRobScripts/dataGeneration.R')
-source('~/Documents/Bakalarka/FunRobScripts/featureExtracting.R')
-source('~/Documents/Bakalarka/FunRobScripts/dataVisualisation.R')
+source('initialization.R')
+source('dataGeneration.R')
+source('featureExtracting.R')
+source('dataVisualisation.R')
 plot
