@@ -54,6 +54,7 @@ if(perf_threshold){
 #adding variables numberOfLevels, numberOfObservations, numberOfObervationsPerLevel
 fitDataUnwrapped <- unnest(fitData, data)
 
+if(FALSE){
 fitDataUnwrapped <- fitDataUnwrapped %>%
   #number of levels
     group_by(id) %>% mutate(numberOfLevels = n()) %>%
@@ -83,3 +84,4 @@ fitDataUnwrapped <- fitDataUnwrapped %>%
 #  fitData[i,]$meanthresholdLevelDistance <- mean(abs(dat$level - tres))
 #}
 #rm(i, tres)
+}
